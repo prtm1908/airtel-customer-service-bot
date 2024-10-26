@@ -53,7 +53,7 @@ def create_vector_db(knowledge_file: str):
 
 # Initialize vector store
 print("Initializing vector store from knowledge base...")
-vector_store = create_vector_db('airtel_knowledge.txt')
+vector_store = create_vector_db('./airtel_knowledge.txt')
 
 # Define state structure
 class AgentState(TypedDict):
